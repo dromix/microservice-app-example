@@ -35,5 +35,5 @@ spec:
         name: todos-api
         ports:
         - containerPort: 8082
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
       restartPolicy: Always

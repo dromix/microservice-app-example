@@ -29,5 +29,5 @@ spec:
           
         image: dromix/log-message-processor
         name: log-message-processor
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
       restartPolicy: Always

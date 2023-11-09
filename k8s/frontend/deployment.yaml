@@ -26,7 +26,7 @@ spec:
           value: http://todos-api:8082
         - name: ZIPKIN_URL
           value: http://zipkin:9411/api/v2/spans
-        image: frontend
+        image: dromix/frontend
         name: frontend
         ports:
         - containerPort: 8080

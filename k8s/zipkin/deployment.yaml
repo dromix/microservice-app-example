@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - env:
-        image: openzipkin/zipkin
+        image: dromix/openzipkin/zipkin
         name: zipkin
         ports:
         - containerPort: 9411
